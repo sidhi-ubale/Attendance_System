@@ -1,0 +1,10 @@
+1)Connecting to the MySql Database:
+Add your MySql username and password in the DatabaseConnection.java on line 11
+
+2)ADMIN LOGIN:
+Username: admin
+password: admin
+
+3)Student Login:
+uname: harsh@21
+pass:Bs4BEGz69n
