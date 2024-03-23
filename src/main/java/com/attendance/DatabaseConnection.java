@@ -8,7 +8,7 @@ public class DatabaseConnection {
 	static Connection con;
 		public static Connection getConnection() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		return DriverManager.getConnection("jdbc:mysql://localhost:3306/student_attendance?useSSL=false", "root", "SIDDHI@2509");
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/student_attendance?useSSL=false", "enter_username", "enter_your_pass");
 	}
 
 	public static ResultSet getResultFromSqlQuery(String SqlQueryString) {
